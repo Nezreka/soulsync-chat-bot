@@ -15,9 +15,10 @@ Two tiers, deliberately separated:
    classifies them, and replies to high-confidence problem reports with one of
    the approved templates in `templates.md`. Rate-limited, deduplicated, and
    silent on anything uncertain.
-2. **Slow tier (human loop).** Flagged reports get a real investigation against
-   the SoulSync codebase, and Boulder gets a triage summary with a confidence
-   call on each one. He decides what becomes a fix.
+2. **Slow tier (human loop).** Flagged reports get a real investigation: reproduce
+   against `main`, check whether `dev` already fixed it, and if not, the fix
+   goes up as a PR targeting `dev`. Boulder gets a triage summary with a
+   confidence call on each one.
 
 ## Layout
 
