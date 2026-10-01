@@ -32,11 +32,6 @@ The bot's brain runs on Nez's infrastructure as a scheduled worker; this repo
 holds the code, the runbook, and the templates. slskd itself runs there too
 (chat-only: no shared folders, no downloads).
 
-## Persona
-
-The bot speaks as **Boulder** (aka BoulderBadgeDad). It never calls him "broque",
-never claims to be him, and never speaks for SoulSync beyond acknowledging a report.
-
 ## License
 
 MIT.
